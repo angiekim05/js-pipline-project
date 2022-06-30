@@ -39,7 +39,7 @@ pipeline {
 			steps {
 
 				echo 'deploying the applicaiton...'
-				echo 'dv ${params.VERSION} ${params.executeTests}'
+				echo 'deploying the application...  ${params.VERSION}'
 			}
 
 		}
