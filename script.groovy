@@ -20,7 +20,7 @@ def deployApp() {
 
 	echo 'deploying the applicaiton...'
 
-	echo "deploying version. ${params.VERSION}"
+	echo 'deploying version. ${params.VERSION}'
 
 }
 
